@@ -1,0 +1,80 @@
+#container {
+    width: 95%;
+    height: 87vh;
+    margin: 3%;
+    border: 1px solid black;
+}
+
+#contenedor {
+    width: 570px;
+    height: 300px;
+    position: relative;
+    border: 1px solid blue;
+    margin: 3% auto;
+}
+
+.bloque {
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+}
+
+.usuario {
+    height: 20px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+}
+
+.ball {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    position: absolute;
+    border-radius: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 6%;
+}
+
+button {
+    margin: 3% auto;
+    display: block;
+    padding: 1.5% 3%;
+    font-size: 3rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex .block {
+    padding: 1rem;
+    margin: auto;
+}
+
+.flex .block h2 {
+    margin: 0;
+}
+
+
+
+/* Adaptar pantalla dispositivos móviles */
+@media (max-width: 768px) {
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    button {
+        margin: 6% auto;
+        display: block;
+        padding: 1.5% 3%;
+        font-size: 3rem;
+    }
+  
+  }
